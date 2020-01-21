@@ -1,10 +1,8 @@
 def nyc_pigeon_organizer(data)
 
-  data.reduce({}) do |memo, (k, v)|
+  data.reduce({}) do |memo, (outerkey, (innerkey, innerval))|
     
-    # p memo
-    # p k 
-    pp v 
+    pp innerval
     memo
     
   end 
