@@ -7,6 +7,6 @@ def nyc_pigeon_organizer(data)
     
   end 
 
-  # puts key_values
+  puts key_values
   puts names
 end
