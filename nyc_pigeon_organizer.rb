@@ -7,7 +7,6 @@ def nyc_pigeon_organizer(data)
     pp "IGNORE THIS LINE"
 
     
-    binding.irb 
   end 
 
   
