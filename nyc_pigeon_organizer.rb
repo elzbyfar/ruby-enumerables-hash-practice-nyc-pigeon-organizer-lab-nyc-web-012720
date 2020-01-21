@@ -19,6 +19,6 @@ def nyc_pigeon_organizer(data)
   
 
   # puts key_values
-  # pp innerhash
-  pp names
+  pp innerhash
+  # pp names
 end
