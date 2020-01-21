@@ -10,11 +10,11 @@ def nyc_pigeon_organizer(data)
     # innerhash << outermost_key[1]
   end 
   
-  innerhash.map do |hash| 
-    hash.each_pair do |key, value| 
-      names << value 
-    end 
-  end 
+  # innerhash.map do |hash| 
+  #   hash.each_pair do |key, value| 
+  #     names << value 
+  #   end 
+  # end 
   
 
   # puts key_values
