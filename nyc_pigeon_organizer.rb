@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
 
   data.reduce({}) do |memo, (outerkey, (innerkey, innerval))|
     
-    pp innerval
+    pp innerkey
     
     
   end 
