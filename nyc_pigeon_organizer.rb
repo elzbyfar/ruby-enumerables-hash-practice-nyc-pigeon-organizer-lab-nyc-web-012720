@@ -6,8 +6,7 @@ def nyc_pigeon_organizer(data)
     key_values << outerkey[0]
     names << memo[outerkey]
   end 
-    binding.irb 
 
-  puts key_values
+  # puts key_values
   puts names
 end
