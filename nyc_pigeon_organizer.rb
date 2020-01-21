@@ -11,7 +11,6 @@ def nyc_pigeon_organizer(data)
     
     key_values << outermost_key[0]
     innerhash << outermost_key[1]
-    # names << memo[outerkey[0][outerkey[1]]]
   end 
   
   innerhash.map do |hash| 
