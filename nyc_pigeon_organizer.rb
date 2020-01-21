@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   
   collect_keys = data.reduce({}) do |memo, outerkey|
     keys << outerkey[0]
-    memo
+    outerkey
   end 
   
   puts collect_keys
