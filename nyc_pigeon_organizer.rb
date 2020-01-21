@@ -5,6 +5,6 @@ def nyc_pigeon_organizer(data)
     keys << outerkey[0]
     memo
   end 
-
+  puts keys
   
 end
