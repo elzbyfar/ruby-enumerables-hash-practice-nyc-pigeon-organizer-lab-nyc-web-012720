@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     
     pp innerkey_val
     
-    
+    binding.irb 
     
   end 
   
