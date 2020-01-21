@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
     names << memo[outerkey]
   end 
   
-  puts collect_keys
+  puts key_values
+  puts names
 
 end
