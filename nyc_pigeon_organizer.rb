@@ -4,6 +4,8 @@ def nyc_pigeon_organizer(data)
   names = []
   
   data.reduce({}) do |memo, outermost_key|
+    outermost_key
+    
     
     pp outermost_key
     # key_values << outermost_key[0]
