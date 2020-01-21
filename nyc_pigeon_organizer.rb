@@ -5,8 +5,7 @@ def nyc_pigeon_organizer(data)
     
     pp innerkey
     pp "IGNORE THIS LINE"
-    pp innerval
-    
+
     
     binding.irb 
   end 
