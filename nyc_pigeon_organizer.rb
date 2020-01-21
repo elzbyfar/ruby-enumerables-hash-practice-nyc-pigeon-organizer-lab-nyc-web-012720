@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
   # innerhash.reduce() do |memo, innerkey
   
 
-  puts key_values
-  pp innerhash
-  names
+  # puts key_values
+  # pp innerhash
+  pp names
 end
