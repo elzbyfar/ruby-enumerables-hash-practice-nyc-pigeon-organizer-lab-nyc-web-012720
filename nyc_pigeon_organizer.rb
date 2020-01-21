@@ -9,5 +9,5 @@ def nyc_pigeon_organizer(data)
   
   puts key_values
   puts names
-
+  binding.irb 
 end
