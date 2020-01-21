@@ -1,12 +1,9 @@
 def nyc_pigeon_organizer(data)
+  keys = []
   
-  
-  data.reduce({}) do |memo, outerkey, (innerkey, innerval)|
-    
-    pp outerkey
-    pp "IGNORE THIS LINE"
-
-    
+  data.reduce({}) do |memo, outerkey|
+    keys << outerkey[0]
+    memo
   end 
 
   
