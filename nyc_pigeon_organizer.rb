@@ -1,9 +1,9 @@
 def nyc_pigeon_organizer(data)
   
   
-  data.reduce({}) do |memo, (outerkey, innerkey_val)|
+  data.reduce({}) do |memo, (outerkey, (innerkey, innerval))|
     
-    pp innerkey_val
+    pp innerkey
     
     binding.irb 
     
