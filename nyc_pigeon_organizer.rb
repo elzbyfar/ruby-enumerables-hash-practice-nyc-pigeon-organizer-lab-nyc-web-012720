@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   innerhash = []
   names = []
   
-  open_hash = data.reduce({}) do |memo, outermost_key|
+  data.reduce({}) do |memo, outermost_key|
     outermost_key.each_pair do |outerkey, innerkey|
       p outerkey
       
