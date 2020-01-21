@@ -9,11 +9,16 @@ def nyc_pigeon_organizer(data)
     # names << memo[outerkey[0][outerkey[1]]]
   end 
   
-  innerhash.map { |hash| hash.each_pair
+  innerhash.map do |hash| 
+    hash.each_pair do |key, value| 
+      names << value 
+    end 
+  end 
   
   # innerhash.reduce() do |memo, innerkey
   
 
   puts key_values
   pp innerhash
+  names
 end
