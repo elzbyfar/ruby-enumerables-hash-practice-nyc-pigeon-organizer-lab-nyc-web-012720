@@ -1,10 +1,11 @@
 def nyc_pigeon_organizer(data)
   keys = []
   
-  data.reduce({}) do |memo, outerkey|
+  collect_keys = data.reduce({}) do |memo, outerkey|
     keys << outerkey[0]
     memo
   end 
-  puts keys
   
+  puts collect_keys
+
 end
