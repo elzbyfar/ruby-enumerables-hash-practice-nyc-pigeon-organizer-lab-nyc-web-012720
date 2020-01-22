@@ -5,11 +5,8 @@ def nyc_pigeon_organizer(data)
     inner_hash.each_pair do |att_val, name_arr|
       name_arr.each do |name| 
         att_val_arr = []
-        
         small_hash = {}
-        
         att_val_arr << att_val.to_s
-        
         small_hash[att] = att_val_arr
       
         if new_hash[name]
