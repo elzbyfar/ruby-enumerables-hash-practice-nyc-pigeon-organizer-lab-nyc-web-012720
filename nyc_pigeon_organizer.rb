@@ -18,8 +18,8 @@ def nyc_pigeon_organizer(data)
       end 
       
     end 
-      pp memo
-    memo
+    #   pp memo
+    # memo
   end
     
 end
