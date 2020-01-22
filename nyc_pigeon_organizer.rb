@@ -17,9 +17,9 @@ def nyc_pigeon_organizer(data)
       end 
       # pp purpkey
       # pp innerhash
-      # pp memo
+      pp memo
     end 
   end
-  pp memo
+  # pp memo
   memo
 end
