@@ -9,8 +9,6 @@ def nyc_pigeon_organizer(data)
         small_hash[key1] = key2
         new_hash[name] = small_hash
       end 
-            binding.irb 
-
     end 
   end 
   
