@@ -14,10 +14,10 @@ def nyc_pigeon_organizer(data)
         else 
           memo[name] = tail_hash
         end 
+        pp memo
       end 
       # pp purpkey
       # pp innerhash
-      pp memo
     end 
   end
   # pp memo
