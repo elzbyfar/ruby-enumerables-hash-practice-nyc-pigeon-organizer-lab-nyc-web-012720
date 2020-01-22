@@ -2,13 +2,13 @@ def nyc_pigeon_organizer(data)
   key_values = []
   names = []
   
-  data.reduce({}) do |memo, (outermost_key, innerhash)|
-    innerhash.each_pair do |innerkey, names_arr|
+  data.reduce({}) do |memo, (col_gen_liv, purp_male_sub)|
+    purp_male_sub.each_pair do |purpkey, names_arr|
       tail_hash = Hash.new 
-      tail_hash[innerkey] = innerhash
+      tail_hash[purpkey] = innerhash
       names_arr.map { |name| memo[name] = tail_hash }
-      # pp innerkey
-      pp innerhash
+      # pp purpkey
+      # pp innerhash
     end 
     
     
