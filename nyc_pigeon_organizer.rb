@@ -1,4 +1,6 @@
 def nyc_pigeon_organizer(data)
+  new_hash = {}
+  
   
   data.each_pair do |key1, val1| 
     val1.each_pair do |key2, val2|
