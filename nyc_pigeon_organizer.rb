@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
         small_hash[att] = att_val_arr
       
         if new_hash[name]
-          new_hash[name][att] = att_val_arr
+          new_hash[name][att] << att_val.to_s 
         else 
           new_hash[name] = small_hash
         
