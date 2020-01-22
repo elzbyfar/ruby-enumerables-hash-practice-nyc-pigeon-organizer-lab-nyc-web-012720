@@ -20,7 +20,6 @@ def nyc_pigeon_organizer(data)
       # pp innerhash
     end 
       pp memo
-
   end
   # pp memo
   # memo
