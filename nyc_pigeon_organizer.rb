@@ -4,12 +4,13 @@ def nyc_pigeon_organizer(data)
   
   data.each_pair do |key1, val1| 
     val1.each_pair do |key2, val2|
-      binding.irb 
       val2.each do |name| 
         small_hash = {}
         small_hash[key1] = key2
         new_hash[name] = small_hash
       end 
+            binding.irb 
+
     end 
   end 
   
