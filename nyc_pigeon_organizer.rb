@@ -2,6 +2,13 @@ def nyc_pigeon_organizer(data)
   key_values = []
   names = []
   
+  
+  
+  
+  
+  
+  
+  
   data.reduce({}) do |memo, (col_gen_liv, purp_male_sub)|
     purp_male_sub.each_pair do |purpkey, names_arr|
       
