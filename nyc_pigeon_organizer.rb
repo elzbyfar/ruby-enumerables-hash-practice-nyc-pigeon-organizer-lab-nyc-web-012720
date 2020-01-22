@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   
   data.each_pair do |key1, val1| 
     val1.each_pair do |key2, val2|
-      
+      val2.
     end 
   end 
   
