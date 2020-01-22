@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
     inner_hash.each_pair do |att_val, name_arr|
       name_arr.each do |name| 
         small_hash = {}
+        if 
         att_val_arr << att_val
-        small_hash[att] = att_val
         if new_hash[name]
           new_hash[name][att] = att_val
         else 
