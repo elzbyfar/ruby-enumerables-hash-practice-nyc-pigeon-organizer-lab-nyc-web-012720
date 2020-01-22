@@ -15,9 +15,10 @@ def nyc_pigeon_organizer(data)
           memo[name] = tail_hash
         end 
       end 
-    end 
       pp memo
       memo
+    end 
+      
   end
 
 end
