@@ -5,10 +5,11 @@ def nyc_pigeon_organizer(data)
   data.reduce({}) do |memo, (col_gen_liv, purp_male_sub)|
     purp_male_sub.each_pair do |purpkey, names_arr|
       tail_hash = Hash.new 
-      tail_hash[purpkey] = innerhash
+      tail_hash[col_gen_liv] = purpkey
       names_arr.map { |name| memo[name] = tail_hash }
       # pp purpkey
       # pp innerhash
+      pp tail_hash
     end 
     
     
