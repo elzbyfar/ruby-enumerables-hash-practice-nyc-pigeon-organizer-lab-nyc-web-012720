@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
       names_arr.map { |name| memo[name] = tail_hash }
       # pp purpkey
       # pp innerhash
-      pp tail_hash
+      push tail_hash
     end 
     
     
