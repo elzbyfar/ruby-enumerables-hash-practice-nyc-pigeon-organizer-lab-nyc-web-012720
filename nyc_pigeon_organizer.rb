@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       
       # names_arr.map { |name| memo[name] = 
       pp innerkey
-      pp innerhash
+      # pp innerhash
     end 
     
     
