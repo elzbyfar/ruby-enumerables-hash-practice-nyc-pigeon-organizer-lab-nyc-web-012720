@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       memo[outermost_key] = innerkey
     end 
     
-    # pp innerhash
+    pp innerkey
     # key_values << outermost_key[0]
     # innerhash << outermost_key[1]
   end 
