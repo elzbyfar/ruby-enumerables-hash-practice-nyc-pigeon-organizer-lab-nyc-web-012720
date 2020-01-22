@@ -14,29 +14,12 @@ def nyc_pigeon_organizer(data)
         else 
           memo[name] = tail_hash
         end 
-      
       end 
-      
-      
-      
       # pp purpkey
       # pp innerhash
-      pp memo
+      # pp memo
     end 
-    
-    
-    # key_values << outermost_key[0]
-    # innerhash << outermost_key[1]
-  end 
-  
-  # innerhash.map do |hash| 
-  #   hash.each_pair do |key, value| 
-  #     names << value 
-  #   end 
-  # end 
-  
-
-  # puts key_values
-  # pp innerhash
-  # pp names
+  end
+  pp memo
+  memo
 end
