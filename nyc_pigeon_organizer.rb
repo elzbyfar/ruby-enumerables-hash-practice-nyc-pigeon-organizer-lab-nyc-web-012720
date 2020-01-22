@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
       val2.each do |name| 
         small_hash = {}
         small_hash[val1] = key2
-        new_hash[name] = 
+        new_hash[name] = small_hash
       end 
     end 
   end 
