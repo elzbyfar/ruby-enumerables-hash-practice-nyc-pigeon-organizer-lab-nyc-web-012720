@@ -6,6 +6,8 @@ def nyc_pigeon_organizer(data)
     val1.each_pair do |key2, val2|
       
       val2.each do |name| 
+        small_hash = {}
+        small_hash[]
         new_hash[name] = 
       end 
     end 
