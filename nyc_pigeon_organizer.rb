@@ -4,10 +4,10 @@ def nyc_pigeon_organizer(data)
   
   data.reduce({}) do |memo, (outermost_key, innerhash)|
     innerhash.each_pair do |innerkey, names_arr|
-      
+      memo[outermost_key] = innerkey
     end 
     
-    pp innerhash
+    # pp innerhash
     # key_values << outermost_key[0]
     # innerhash << outermost_key[1]
   end 
