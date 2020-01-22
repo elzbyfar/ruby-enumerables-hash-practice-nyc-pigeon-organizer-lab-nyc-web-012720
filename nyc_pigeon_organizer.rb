@@ -2,12 +2,16 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
   
   
-  data.each_pair do |key1, val1| 
-    val1.each_pair do |key2, val2|
-      val2.each do |name| 
+  data.each_pair do |att, inner_hash| 
+    inner_hash.each_pair do |att_val, name_arr|
+      name_arr.each do |name| 
         small_hash = {}
-        small_hash[key1] = key2
-        new_hash[name] = small_hash
+        small_hash[att] = att_val
+        if new_hash[name]
+          new_hash[name][att] = att_val
+        else 
+          new_hash[name] = small_hash
+        end 
       end 
     end 
   end 
