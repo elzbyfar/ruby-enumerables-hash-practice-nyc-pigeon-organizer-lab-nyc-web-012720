@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   key_values = []
   names = []
   
-  
+  data.reduce({})
   
   
   
